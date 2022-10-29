@@ -1,0 +1,47 @@
+name: spacex_latest_launch
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.2 <3.0.0"
+
+dependencies:
+  cached_network_image: ^3.2.2
+  cupertino_icons: ^1.0.2
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.1
+  flutter_native_splash: ^2.2.12
+  flutter_svg: ^1.1.6
+  google_fonts: ^3.0.1
+  http: ^0.13.5
+  intl: ^0.17.0
+  url_launcher: ^6.1.6
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.10.0
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "dev_assets/logo.png"
+
+flutter_native_splash:
+  image: "dev_assets/splash.png"
+  color: "#0B1123"
+  android_gravity: fill
+  ios_content_mode: scaleToFill
+
+flutter:
+  uses-material-design: true
+  assets:
+    - dev_assets/
+    - lib/constants/assets/
